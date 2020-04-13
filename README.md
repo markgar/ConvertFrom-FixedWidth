@@ -2,7 +2,7 @@
 
 ConvertFrom-FixedWidth is a Powershell function served from the PowerShell Gallery that allows you to take fixed width tabular data and convert it to a PowerShell object array. 
 
-[![ConvertFrom-FixedWidth Build Status](https://github.com/markgar/ConvertFrom-FixedWidth/workflows/Create%20Module,%20Push%20to%20Powershell%20Gallery/badge.svg)](https://github.com/markgar/sporq/actions?query=workflow%3A%22Create+Module%2C+Push+to+Powershell+Gallery%22)
+![Publish to Powershell Gallery](https://github.com/markgar/ConvertFrom-FixedWidth/workflows/Publish%20to%20Powershell%20Gallery/badge.svg)
 
 For example, a table of data in a file called "sample1.txt" that has these contents:
 
@@ -41,7 +41,8 @@ page.
 
 ## Maintainers
 
-- [Mark Garner](https://github.com/markgar) - [@mgarner](http://twitter.com/mgarner)
+- [Mark Garner on github](https://github.com/markgar)
+- [@mgarner on Twitter](http://twitter.com/mgarner)
 
 ## License
 
