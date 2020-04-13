@@ -17,7 +17,9 @@ Can be converted to an object array like this:
 # load the file from disk
 $fixedWidthText = Get-Content -Path ./sample1.txt
 
-# define the locations of the columns  (should be one less than the total number of columns)
+# define the ordinal locations of the columns  (should be one less than the total number of columns)
+# in this example the first and second columns are delimited at position 10
+# the second column (between Column2 and Column3) is at position 24.  this is 24 positions from the left, not 24 from the prior column
 $columns = 10, 24
 
 # use ConvertFrom-FixedWidth function from the PowerShell Gallery to get an object array
